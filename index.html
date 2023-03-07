@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav class="navbar">
+          <a class="navbar__logo" href="#"
+            ><img src="./assets/Logo.png" alt=""
+          /></a>
+          <div class="menuToggle" onclick="handleClick()"></div>
+          <ul class="navbar__menu">
+            <li class="navbar__items"><a href="#">Home</a></li>
+            <li class="navbar__items"><a href="#">Servicios</a></li>
+            <li class="navbar__items"><a href="#">Sobre Nosotros</a></li>
+            <li class="navbar__items"><a href="#">Insights</a></li>
+            <li class="navbar__items navbar__items--btn">
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section class="banner">
+        <div class="banner__content">
+          <h1 class="banner__title">
+            ¿Cómo reinventar y crear nuevos negocios desde
+            <span>iniciativas de innovación</span>?
+          </h1>
+          <p class="banner__description">
+            Ampliamos los puntos de vista de directivos y equipos para detectar
+            y desarrollar oportunidades de innovación bajo un proceso sistémico
+            y práctico.
+          </p>
+          <a class="banner__btn" href="#"> Contáctanos </a>
+        </div>
+      </section>
+
+      <section class="create-value">
+        <div class="create-value__container">
+          <h2 class="create-value__title">Crea valor</h2>
+          <div class="create-value__content">
+            <div class="create-value__left">
+              <div>
+                <h4>
+                  Validación de <br />
+                  oportunidades
+                </h4>
+                <p>
+                  Asegura que las temáticas de interés sean oportunidades reales
+                  para la organización, más allá de sus propios límites o retos.
+                </p>
+              </div>
+            </div>
+            <div class="create-value__right">
+              <h4>
+                Escenarios <br />
+                futuros
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="situation">
+        <div class="situation__titleBx">
+          <h3 class="situation__title">Si te encuentras en esta situación:</h3>
+        </div>
+        <div class="situation__content">
+          <span class="situation__text">Comprueba y/o verifica </span>
+          <div class="situation__checkBx">
+            <p>
+              <input type="checkbox" />
+              <label for=""
+                >No sé hacia dónde apostar los esfuerzos de innovación. A mayor
+                riesgo, bajos entornos controlados.</label
+              >
+            </p>
+            <p>
+              <input type="checkbox" />
+              <label for=""
+                >Estoy perdiendo mercado y quiero diferenciarme de la
+                competencia.
+              </label>
+            </p>
+            <p>
+              <input type="checkbox" />
+              <label for=""
+                >No sé cómo obtener el valor real de las tendencias
+                globales.</label
+              >
+            </p>
+          </div>
+          <span class="situation__ask"
+            >¿Te sentiste identificado con alguno de los enunciados?</span
+          >
+          <a class="situation__btn" href="#"> Conversemos </a>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="testimonials__top">
+          <h2>Hemos dejado huella</h2>
+          <span>Estas son las opiniones de algunos de nuestros clientes.</span>
+        </div>
+        <div class="testimonials__botton">
+          <div class="testimonials__content">
+            <p class="testimonials__description">
+              “Me ayudaron a validar rápidamente temas que estaban sueltos para
+              verdaderamente apostar por inversiones que valen la pena para la
+              empresa” -
+            </p>
+            <div class="testimonials__box">
+              <div class="testimonials__imgBx">
+                <img src="./assets/imagencaracol.png" alt="" />
+              </div>
+              <div>
+                <span>Caracol</span>
+                <p>Validación de oportunidades</p>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__content">
+            <p class="testimonials__description">
+              “La lógica de horizontes es clave para entender hacia dónde va la
+              innovación y cómo tomar la decisiones de si entrar o no”.
+            </p>
+            <div class="testimonials__box">
+              <div class="testimonials__imgBx">
+                <img src="./assets/FDN.png" alt="" />
+              </div>
+              <div>
+                <span>FDN</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonials__content">
+            <p class="testimonials__description">
+              “Es muy importante conocer el sector que se está incursionando, y
+              desde allí diseñar propuesta creíbles que rompan con lo
+              tradicional, tomar el control de ese futuro y apostar por riesgo
+              más inteligentes”.
+            </p>
+            <div class="testimonials__box">
+              <div class="testimonials__imgBx">
+                <img src="./assets/MSD.png" alt="" />
+              </div>
+              <div>
+                <span>MSD</span>
+                <p>Innovación Comercial</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="results">
+        <div class="results__top">
+          <h2>Resultados.</h2>
+          <span
+            >Las cifras reflejan el éxito que hemos alcanzado en cada
+            proyecto.</span
+          >
+        </div>
+        <div class="results__botton">
+          <div class="results__content">
+            <span>+200</span>
+            <p>
+              Iniciativas viabilizadas de innovación conectadas con el negocio.
+            </p>
+          </div>
+          <div class="results__content">
+            <span>+100</span>
+            <p>
+              Formas de jugar en el mercado puestas en marcha desde proyectos de
+              innovación.
+            </p>
+          </div>
+          <div class="results__content">
+            <span>+30</span>
+            <p>Portafolios de proyectos y oportunidades evaluados.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="invitation">
+        <div class="invitation__top">
+          <h2>¿Quieres ser parte del grupo innovador?</h2>
+          <span>Píldoras de conocimiento accionable:</span>
+        </div>
+        <div class="invitation__botton">
+          <div class="invitation__content invitation__content--left">
+            <span class="invitation__titleCard">Lorem Ipsum</span>
+            <a class="invitation__btn" href="#">Conoce más</a>
+          </div>
+          <div class="invitation__content invitation__content--right">
+            <span class="invitation__titleCard">Lorem Ipsum</span>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.
+            </p>
+            <a class="invitation__btn" href="#">Conoce más</a>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer__head">
+          <span>Recibe información actualizada de tu interés.</span>
+          <a href="#">Suscríbete a nuestro Newsletter</a>
+        </div>
+        <div class="footer__body">
+          <div class="footer__content">
+            <div class="footer__contacto">
+              <div class="footer__imgBox">
+                <img class="footer__logoBx" src="./assets/Logo.png" alt="" />
+              </div>
+              <h5>Síguenos</h5>
+              <div class="footer__social">
+                <div class="footer__imgBx">
+                  <img src="./assets/gorjeo 1.png" alt="" />
+                </div>
+                <div class="footer__imgBx">
+                  <img src="./assets/linkedin 1.png" alt="" />
+                </div>
+                <div class="footer__imgBx">
+                  <img src="./assets/whatsapp1.png" alt="" />
+                </div>
+              </div>
+              <div class="footer__correo">
+                <img src="./assets/Message.png" alt="" />
+                <span>contacto@inventta.net</span>
+              </div>
+            </div>
+            <div class="footer__subscribe">
+              <h5>
+                Inscríbete a nuestras <br />
+                comunidades:
+              </h5>
+              <ul>
+                <li><a href="#">Pymes Colombia</a></li>
+                <li><a href="#">Solvers</a></li>
+                <li><a href="#">Insightts</a></li>
+              </ul>
+            </div>
+            <div class="footer__about">
+              <h5>Sobre nosotros:</h5>
+              <ul>
+                <li><a href="#">Quiénes somos</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
+            </div>
+            <div class="footer__office">
+              <h5>Oficinas en:</h5>
+              <ul>
+                <li><a href="#">Colombia</a></li>
+                <li><a href="#">Perú</a></li>
+                <li><a href="#">Brasil</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__copy">
+            <span> 2022 - Diseño y desarrollo por Tres Pi Medios </span>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script type="text/javascript" src="javascript/index.js"></script>
+  </body>
+</html>
